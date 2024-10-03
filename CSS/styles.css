@@ -7,7 +7,7 @@ header {
 
   background-size: 200px;
 }
-
+/*div css*/
 div {
   display: flex;
   justify-content: space-evenly;
@@ -27,7 +27,7 @@ div {
   font-weight: Bold;
   font-style: normal;
 }
-
+/*images css*/
 img {
   height: 100%;
 }
