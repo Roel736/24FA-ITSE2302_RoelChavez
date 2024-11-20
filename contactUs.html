@@ -26,19 +26,11 @@
     <link rel="stylesheet" href="/CSS/styles.css" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
 
-   <!-- JAVA SCRIPT OTHER !!! <script src="JavaScript/javascript.js"></script> -->
+   <!-- //JAVASCRIPT -->
+   <script src="Javascript/formValidation.js" defer></script>
 
-  </head>
+
   <body class="body_content">
-<!-- java script operator!-->
-   <!--   OPERATOR LOOPS ! <script src="Javascript/stringsOperatorsLoops.js"></script> -->
-  
-   <!-- java script Even or odds!!-->
-<!--    <script src="Javascript/evenOrOdd.js"></script> -->
-
-   <!-- java script  ARRAY AND CATCH!!-->
-<script src="Javascript/arraysTryCatch.js"></script>
-
     <!-- This adds images -->
     <header>
       <nav>
@@ -93,6 +85,7 @@
             <li>
               <a href="aboutdogs.html"
                 ><img src="images/CuteDog4.png" alt="cute dogei"
+                
               /></a>
             </li>
 
@@ -107,29 +100,55 @@
       </nav>
     </header>
 
-    <h2>Cats</h2>
-    <!-- just text  for cats-->
-    <p>
-      The cat, also referred to as domestic cat or house cat, is a small
-      domesticated carnivorous mammal. It is the only domesticated species of
-      the family Felidae. Advances in archaeology and genetics have shown that
-      the domestication of the cat occurred in the Near East around 7500 BC.
-    </p>
-    <!-- images of cats -->
-    <img src="images/NerdCat.png" alt="cat!" />
-    <p><img src="images/Cat.png" alt="cat!!" /></p>
+    <h2>
+      Contact US </h2>
+  <br />
+  <form id="form">
+    <!-- enter the first name and last -->
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
 
-    <h2>Dogs</h2>
-    <!-- just text for dogs -->
-    <p>
-      a domesticated omnivorous mammal that typically has a long snout, an acute
-      sense of smell, nonretractable claws, and a barking, howling, or whining
-      voice.
-    </p>
-    <!-- image of a dog -->
-    <img src="images/Dog.png" alt="dog!" />
+      <!-- gender -->
+    <label for="gender1">Female:</label>
+    <input type="radio" id="gender1" name="gender" /><br />
+    <label for="gender2">Male:</label>
+    <input type="radio" id="gender2" name="gender" /><br />
+    <label for="gender3">Other Gender:</label>
+    <input type="radio" id="gender3" name="gender" /><br /><br />
 
-    <!--Footer was added-->
+    <!-- purchase -->
+    <input type="checkbox" id="pcat" name="pcat" value="10">
+    <label for="cat"> Are you going to buy a cat?
+      ($10.00)
+    </label><br>
+    <input type="checkbox" id="pdog" name="pdog" value="10">
+    <label for="dog"> are u going to buy a dog?
+      ($10.01)
+    </label><br>
+    <input type="checkbox" id="pvideos"me="pvideos" value="40">
+    <label for="video"> are u going to buy a video?
+      ($40.78)
+    </label><br>
+
+    <label for="age">How old are you?</label>
+
+   <select name="age" id="age">
+   <option value="18">18</option>
+   <option value="19">19</option>
+   <option value="20">20</option>
+   <option value="21 +">21+</option>
+   </select>
+   
+
+   <p><label for="enjoy">Hope you enjoyed the website!:</label></p>
+  <textarea id="review" name="etc" rows="5" cols="30">Review (click to review).</textarea>
+  <br>
+   
+   <input type="submit" value="Submit">
+   <input type="reset" value="Reset">
+  </form>
     <footer>
       &copy;Copyright by
       <a
