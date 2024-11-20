@@ -8,9 +8,9 @@
   event.preventDefault();
 
  //displays the values for the first second and third function!
-if (validateForm()){
+if (validate()){
 
-  const totalamount = calculateTotal();
+  const totalamount = total();
 
 //displays on ur screen
 console.log("First Name:" + document.getElementById("fname").value);
@@ -24,7 +24,7 @@ if (document.getElementById("gender1").checked){
 
 if (document.getElementById("gender2").checked){
   //displays on ur screen
-  console.log("Gender:" + document.getElementById("gender1").value);
+  console.log("Gender:" + document.getElementById("gender2").value);
 }
 
 if (document.getElementById("gender3").checked){
@@ -38,7 +38,7 @@ if (document.getElementById("gender3").checked){
 }
 }
 
-function validateForm(){
+function validate(){
   let fname = document.getElementById("fname");
   let lname = document.getElementById("lname");
 
@@ -57,20 +57,21 @@ function validateForm(){
  return true; 
 } 
  
-function calculateTotal() { 
+//calculates the total
+function total() { 
  var total=0
 
 
 if (document.getElementById("pcat").checked){
-  total +-parseInt(document.getElementById("pcat").value);
+  total +=parseFloat(document.getElementById("pcat").value);
 }
 
 if (document.getElementById("pdog").checked){
-  total +-parseInt(document.getElementById("pdog").value);
+  total +=parseFloat(document.getElementById("pdog").value);
 }
 
 if (document.getElementById("pvideos").checked){
-  total +-parseInt(document.getElementById("pvideos").value);
+  total +=parseFloat(document.getElementById("pvideos").value);
 }
 return total;
 }
