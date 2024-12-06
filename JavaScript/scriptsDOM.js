@@ -1,7 +1,7 @@
 "use strict";
 
 // innerHTML might be wrong
-document.querySelector(".intro p").textContent = "you have no rizz; my but rizz is my sensation.The rizz is not in your level but you can get the level of my rizz there some day. Do no shake thy gory gyatt at me. My gyatt shall be better than thy. but with enough practice i will be out dammed by the sigma";
+document.querySelector(".intro p").textContent = "Skibidi Toilet is a wild ride through absurdity, where humor and chaos collide in the most unexpected ways. It takes the mundane, like a simple toilet, and turns it into a symbol of freedom and carefree nonsense. With its rapid-fire pace and outlandish creativity, the series reminds us that sometimes, the most entertaining things are the ones that defy all logic. In a world where seriousness often reigns, Skibidi Toilet is a refreshing, hilarious break from reality";
 
 // replacesimage
 const image = document.getElementById("firstImage");
