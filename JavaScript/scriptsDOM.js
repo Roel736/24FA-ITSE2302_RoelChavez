@@ -1,7 +1,7 @@
 "use strict";
 
 // innerHTML might be wrong
-document.querySelector(".intro p").textContent = "Skibidi Toilet is a wild ride through absurdity, where humor and chaos collide in the most unexpected ways. It takes the mundane, like a simple toilet, and turns it into a symbol of freedom and carefree nonsense. With its rapid-fire pace and outlandish creativity, the series reminds us that sometimes, the most entertaining things are the ones that defy all logic. In a world where seriousness often reigns, Skibidi Toilet is a refreshing, hilarious break from reality";
+document.querySelector(".intro p").textContent = "Believe in the power of your dreams. Embrace the challenges that come your way, for they are stepping stones to greatness. Never let setbacks define you; instead, use them as fuel to push forward. With unwavering determination, you can achieve anything you set your mind to.";
 
 // replacesimage
 const image = document.getElementById("firstImage");
@@ -18,12 +18,12 @@ thirdImage.src = "images/CAT BEACH.jpg";
 
 // This changes the header
 const header = document.querySelectorAll("h3"); 
-header[0].innerHTML = ("true gyatt <3");
-header[1].innerHTML = (":P");
-header[2].innerHTML = (":0");
+header[0].innerHTML = ("The cat is looking at you.");
+header[1].innerHTML = ("The cat is sticking his tounge out.");
+header[2].innerHTML = ("The cat is relaxing");
 
 // This changes the paragraph statements
-const p = document.querySelector("#firstText").innerHTML = ("???????");
+const p = document.querySelector("#firstText").innerHTML = ("The cat is staring at you with a really confused look as if u did something wrong.");
 
 const p2 = document.querySelector("#secondText").innerHTML = ("sticking my tounge out for the rizzler. You're so skibidi. You're so Fanum tax. i just wanna be your sigma. Freaking come here. Give me your ohio.");
 
