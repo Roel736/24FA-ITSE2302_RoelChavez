@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- where i link things and where I connect it to the css -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- adds a title -->
+    <title>Dogs vs cats</title>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--links-->
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
+   <!-- //JAVASCRIPT -->
+   <script src="Javascript/formValidation.js" defer></script>
+
+
+  <body class="body_content">
+    <!-- This adds images -->
+    <header>
+      <nav>
+        <ul>
+          <div>
+            <!-- xiaojie -->
+            <li>
+              <a href="index.html"
+                ><img src="images/CuteCat1.png" alt="cute kitty"
+              
+              /></a><p2>The menu</p2><br>
+            </li>
+            <!-- heart cat -->
+            <li>
+              <a href="manipulatingDOM.html"
+                ><img src="images/CuteCat2.png" alt="cute kitty"
+              /></a><p2>M DOM</p2><br>
+            </li>
+            <!-- staring cat -->
+            <li>
+              <a href="funnycatvids.html"
+                ><img src="images/CuteCat3.png" alt="cute kitty"
+              /></a><p2>Nothing</p2><br>
+            </li>
+            <!-- cat staring 2-->
+            <li>
+              <a href="aboutcats.html"
+                ><img src="images/CuteCat4.png" alt="cute kitty"
+              /></a><p2>Nothing</p2><br>
+            </li>
+
+            <!-- h3 is a header  -->
+            <li><h3>Cats vs Dogs</h3></li>
+            <!-- dog licking their nose -->
+            <li>
+              <a href="index.html"
+                ><img src="images/CuteDog1.png" alt="cute dogei"
+              /></a><p2>The menu</p2><br>
+            </li>
+            <!-- dog staring  -->
+            <li>
+              <a href="cutedogs.html"
+                ><img src="images/CuteDog2.png" alt="cute dogei"
+              /></a><p2>Nothing</p2><br>
+            </li>
+            <!-- gmail -->
+            <li>
+              <a href="funnydogvideos.html"
+                ><img src="images/CuteDog3.png" alt="cute dogei"
+              /></a><p2>Nothing</p2><br>
+            </li>
+            <!-- weird dog -->
+            <li>
+              <a href="aboutdogs.html"
+                ><img src="images/CuteDog4.png" alt="cute dogei"
+              /></a><p2>Nothing</p2><br>
+            </li>
+
+            <li>
+              <a href="contactUs.html"
+                ><img src="images/dog and cat.jfif" alt="cute dogei"
+              /></a><p2>Contact Us</p2><br>
+            </li>
+
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <h2>
+      Contact US </h2>
+  <br />
+  <form id="form">
+    <!-- enter the first name and last -->
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+
+      <!-- gender -->
+    <label for="gender1">Female:</label>
+    <input type="radio" id="gender1" name="gender1" value="Female" /><br />
+    <label for="gender2">Male:</label>
+    <input type="radio" id="gender2" name="gender1" value="Male" /><br />
+    <label for="gender3">Other Gender:</label>
+    <input type="radio" id="gender3" name="gender1" value="Other Gender"/><br /><br />
+
+    <!-- purchase -->
+    <input type="checkbox" id="pcat" name="pcat" value="10">
+    <label for="cat"> Are you going to buy a cat?
+      ($10.00)
+    </label><br>
+    <input type="checkbox" id="pdog" name="pdog" value="10.01">
+    <label for="dog"> are u going to buy a dog?
+      ($10.01)
+    </label><br>
+    <input type="checkbox" id="pvideos" name="pvideos" value="40.78">
+    <label for="video"> are u going to buy a video?
+      ($40.78)
+    </label><br>
+
+    <label for="age">How old are you?</label>
+
+   <select name="age" id="age">
+   <option value="18">18</option>
+   <option value="19">19</option>
+   <option value="20">20</option>
+   <option value="21 +">21+</option>
+   </select>
+   
+
+   <p><label for="enjoy">Hope you enjoyed the website!:</label></p>
+  <textarea id="review" name="etc" rows="5" cols="30">Review (click to review).</textarea>
+  <br>
+   
+   <input type="submit" value="Submit">
+   <input type="reset" value="Reset">
+  </form>
+    <footer>
+      &copy;Copyright by
+      <a
+        href="mailto:rchavez138912@mymail.tstc.edu"
+        target="_blank"
+        rel="noopener"
+        ><b> Roel Chavez </b></a
+      >
+      2024-2025
+    </footer>
+  </body>
+</html>
