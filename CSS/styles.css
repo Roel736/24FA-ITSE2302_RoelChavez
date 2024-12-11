@@ -80,7 +80,22 @@ h2 {
   text-shadow: gray;
 }
 /* changes the color and the phont and the size*/
+p2 {
+
+  color: #ffffff;
+  font-size: 18px;
+  text-size-adjust: 200px;
+  line-height: 30px;
+  font-family: "Pangolin", sans-serif;
+  font-weight: Bold;
+  font-style: normal;
+  border-style:solid;
+  border-color: #808080;
+
+}
+
 p {
+
   color: #000000;
   font-size: 28px;
   text-size-adjust: 200px;

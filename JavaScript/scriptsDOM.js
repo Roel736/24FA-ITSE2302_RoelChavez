@@ -1,7 +1,7 @@
 "use strict";
 
 // innerHTML might be wrong
-document.querySelector(".intro p").textContent = "you have no rizz; my but rizz is my sensation.The rizz is not in your level but you can get the level of my rizz there some day. Do no shake thy gory gyatt at me. My gyatt shall be better than thy. but with enough practice i will be out dammed by the sigma";
+document.querySelector(".intro p").textContent = "Believe in the power of your dreams. Embrace the challenges that come your way, for they are stepping stones to greatness. Never let setbacks define you; instead, use them as fuel to push forward. With unwavering determination, you can achieve anything you set your mind to.";
 
 // replacesimage
 const image = document.getElementById("firstImage");
@@ -18,16 +18,16 @@ thirdImage.src = "images/CAT BEACH.jpg";
 
 // This changes the header
 const header = document.querySelectorAll("h3"); 
-header[0].innerHTML = ("true gyatt <3");
-header[1].innerHTML = (":P");
-header[2].innerHTML = (":0");
+header[0].innerHTML = ("The cat is looking at you.");
+header[1].innerHTML = ("The cat is sticking his tounge out.");
+header[2].innerHTML = ("The cat is relaxing");
 
 // This changes the paragraph statements
-const p = document.querySelector("#firstText").innerHTML = ("???????");
+const p = document.querySelector("#firstText").innerHTML = ("The cat is staring at you with a really confused look as if u did something wrong.");
 
-const p2 = document.querySelector("#secondText").innerHTML = ("sticking my tounge out for the rizzler. You're so skibidi. You're so Fanum tax. i just wanna be your sigma. Freaking come here. Give me your ohio.");
+const p2 = document.querySelector("#secondText").innerHTML = ("The cat is sticking out his tongue for you.");
 
-const p3 = document.querySelector("#thirdText").innerHTML = ("a beachy day for a car to be on the beach");
+const p3 = document.querySelector("#thirdText").innerHTML = ("The cat is relaxing on a hammak on the beach chilling.");
 //this "listens" for a click whenever u click he box
 document.querySelector("#ColorChanging").addEventListener("click", turnHeadingGray);
 document.querySelector("#ColorChanged").addEventListener("click", turnHeadingSilver);
