@@ -25,9 +25,9 @@ header[2].innerHTML = ("The cat is relaxing");
 // This changes the paragraph statements
 const p = document.querySelector("#firstText").innerHTML = ("The cat is staring at you with a really confused look as if u did something wrong.");
 
-const p2 = document.querySelector("#secondText").innerHTML = ("sticking my tounge out for the rizzler. You're so skibidi. You're so Fanum tax. i just wanna be your sigma. Freaking come here. Give me your ohio.");
+const p2 = document.querySelector("#secondText").innerHTML = ("The cat is sticking out his tongue for you.");
 
-const p3 = document.querySelector("#thirdText").innerHTML = ("a beachy day for a car to be on the beach");
+const p3 = document.querySelector("#thirdText").innerHTML = ("The cat is relaxing on a hammak on the beach chilling.");
 //this "listens" for a click whenever u click he box
 document.querySelector("#ColorChanging").addEventListener("click", turnHeadingGray);
 document.querySelector("#ColorChanged").addEventListener("click", turnHeadingSilver);
